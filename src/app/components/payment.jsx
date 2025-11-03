@@ -1,7 +1,7 @@
 // components/PaymentCard.jsx
 'use client';// components/PaymentCard.jsx
 export default function PaymentCard() {
-  const upiUrl = "upi://pay?pa=9788599074@superyes&pn=PRASATH&am=20&cu=INR&tn=Thank%20You";
+  const upiUrl = "upi://pay?pa=9788599074@superyes&pn=PRASATH&am=1&cu=INR&tn=Thank%20You";
   
   const handlePayment = () => {
     // Try to open UPI link
