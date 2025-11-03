@@ -3,7 +3,7 @@
 export default function PaymentCard() {
   const upiId = "9788599074@superyes";
   const recipientName = "PRASATH";
-  const amount = "20";
+  const amount = "1";
 
   const handleOpenUPIApp = () => {
     // Direct UPI payment link that opens the default UPI app
